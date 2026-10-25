@@ -1,0 +1,23 @@
+{
+  "name": "ui-depth",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Глубина для интерфейса: слои, тени, поднятые и утопленные элементы, тёмная тема и экспорт CSS",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --port 5194 --strictPort",
+    "build": "tsc -p . && vite build"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "5.7",
+    "vite": "^6.4.5"
+  }
+}
